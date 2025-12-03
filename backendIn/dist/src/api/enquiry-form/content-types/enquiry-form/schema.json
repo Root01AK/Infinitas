@@ -1,0 +1,36 @@
+{
+    "kind": "collectionType",
+    "collectionName": "enquiry_forms",
+    "info": {
+        "singularName": "enquiry-form",
+        "pluralName": "enquiry-forms",
+        "displayName": "EnquiryForm"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "firstName": {
+            "type": "string"
+        },
+        "lastName": {
+            "type": "string"
+        },
+        "email": {
+            "type": "email"
+        },
+        "countryCode": {
+            "type": "string"
+        },
+        "phone": {
+            "type": "string"
+        },
+        "service": {
+            "type": "string"
+        },
+        "message": {
+            "type": "text"
+        }
+    }
+}

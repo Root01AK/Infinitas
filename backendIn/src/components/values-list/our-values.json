@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_values_list_our_values",
+  "info": {
+    "displayName": "OurValues",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Number": {
+      "type": "biginteger"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

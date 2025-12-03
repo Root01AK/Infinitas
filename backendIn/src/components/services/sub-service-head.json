@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_services_sub_service_heads",
+  "info": {
+    "displayName": "SubServiceHead",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "ServiceTitle": {
+      "type": "string"
+    },
+    "ServiceDescription": {
+      "type": "blocks"
+    },
+    "ServiceImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ServiceBody": {
+      "type": "component",
+      "component": "services.sub-service-content",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

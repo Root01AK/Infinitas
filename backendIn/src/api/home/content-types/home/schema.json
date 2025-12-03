@@ -1,0 +1,118 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TitleText": {
+      "type": "text"
+    },
+    "TitleText1": {
+      "type": "string"
+    },
+    "OurMissionTitle": {
+      "type": "string"
+    },
+    "OurMissionDescription": {
+      "type": "text"
+    },
+    "OurMissionImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "AboutBanner": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "OurVisionTitle": {
+      "type": "string"
+    },
+    "OurVisionDescription": {
+      "type": "text"
+    },
+    "OurVisionImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "BrandTitle": {
+      "type": "text"
+    },
+    "BrandDescription": {
+      "type": "text"
+    },
+    "geTitle": {
+      "type": "string"
+    },
+    "geList": {
+      "type": "component",
+      "component": "listcontent.home-global-expertise",
+      "repeatable": true
+    },
+    "Est": {
+      "type": "string"
+    },
+    "Estyear": {
+      "type": "string"
+    },
+    "EstTitle": {
+      "type": "text"
+    },
+    "EstBranding": {
+      "type": "text"
+    },
+    "EstBrandingline1": {
+      "type": "string"
+    },
+    "EstDescription": {
+      "type": "text"
+    },
+    "EstHelpText": {
+      "type": "string"
+    },
+    "CTA": {
+      "type": "component",
+      "component": "list.cta",
+      "repeatable": true
+    },
+    "BannerVideo": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SEO": {
+      "type": "component",
+      "component": "shared.seo",
+      "repeatable": true
+    }
+  }
+}

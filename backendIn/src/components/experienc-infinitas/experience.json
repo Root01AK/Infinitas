@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_experienc_infinitas_experiences",
+  "info": {
+    "displayName": "Experience"
+  },
+  "options": {},
+  "attributes": {
+    "aboutexperiencetitle": {
+      "type": "string"
+    },
+    "aboutexperiencedescription": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

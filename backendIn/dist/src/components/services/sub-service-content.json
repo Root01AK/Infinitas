@@ -1,0 +1,17 @@
+{
+    "collectionName": "components_services_sub_service_contents",
+    "info": {
+        "displayName": "SubServiceContent",
+        "icon": "bulletList"
+    },
+    "options": {},
+    "attributes": {
+        "Content": {
+            "type": "blocks"
+        },
+        "CTA": {
+            "type": "blocks"
+        }
+    },
+    "config": {}
+}

@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_services_sub_services",
+    "info": {
+        "displayName": "SubService",
+        "icon": "bulletList"
+    },
+    "options": {},
+    "attributes": {
+        "ServiceTitle": {
+            "type": "string"
+        },
+        "ServiceHead": {
+            "type": "component",
+            "component": "services.sub-service-head",
+            "repeatable": true
+        }
+    },
+    "config": {}
+}

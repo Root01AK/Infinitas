@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_lists_card_lists",
+  "info": {
+    "displayName": "CardList",
+    "icon": "briefcase"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "keytitle": {
+      "type": "string"
+    },
+    "Keywords": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

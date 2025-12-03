@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_faqs_faq_titles",
+    "info": {
+        "displayName": "FaqTitle",
+        "icon": "briefcase"
+    },
+    "options": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "FaqContent": {
+            "type": "component",
+            "component": "faqs.faqs",
+            "repeatable": true
+        }
+    },
+    "config": {}
+}

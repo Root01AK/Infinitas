@@ -1,0 +1,66 @@
+{
+  "collectionName": "components_shared_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "metaImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "canonicalURL": {
+      "type": "string"
+    },
+    "metaRobots": {
+      "type": "string"
+    },
+    "metaViewport": {
+      "type": "string"
+    },
+    "ogType": {
+      "type": "string"
+    },
+    "schemaType": {
+      "type": "string"
+    },
+    "businessAddress": {
+      "type": "string"
+    },
+    "businessPhone": {
+      "type": "string"
+    },
+    "geoCity": {
+      "type": "string"
+    },
+    "schemaJSON": {
+      "type": "json"
+    },
+    "faqSchema": {
+      "type": "json"
+    },
+    "breadcrumbSchema": {
+      "type": "json"
+    }
+  },
+  "config": {}
+}

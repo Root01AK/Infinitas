@@ -1,0 +1,39 @@
+{
+    "kind": "collectionType",
+    "collectionName": "careers",
+    "info": {
+        "singularName": "career",
+        "pluralName": "careers",
+        "displayName": "Career"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "BannerImage": {
+            "type": "media",
+            "multiple": true,
+            "allowedTypes": [
+                "images",
+                "files",
+                "videos",
+                "audios"
+            ]
+        },
+        "Bannertitle": {
+            "type": "string"
+        },
+        "BannerCta": {
+            "type": "string"
+        },
+        "CareerDescription": {
+            "type": "text"
+        },
+        "SEO": {
+            "type": "component",
+            "component": "shared.seo",
+            "repeatable": true
+        }
+    }
+}

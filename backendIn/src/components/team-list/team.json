@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_team_list_teams",
+  "info": {
+    "displayName": "Team",
+    "icon": "chartBubble"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Designation": {
+      "type": "string"
+    },
+    "TeamImage": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Description": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

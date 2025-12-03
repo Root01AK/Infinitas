@@ -1,0 +1,17 @@
+{
+    "collectionName": "components_listcontent_home_global_expertises",
+    "info": {
+        "displayName": "Home-Global-Expertise",
+        "icon": "briefcase"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "text"
+        }
+    },
+    "config": {}
+}

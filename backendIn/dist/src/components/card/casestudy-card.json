@@ -1,0 +1,25 @@
+{
+    "collectionName": "components_card_casestudy_cards",
+    "info": {
+        "displayName": "CasestudyCard",
+        "icon": "bell"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "titleNumber": {
+            "type": "string"
+        },
+        "TitleDescription": {
+            "type": "string"
+        },
+        "Contents": {
+            "type": "component",
+            "component": "lists.card-list",
+            "repeatable": true
+        }
+    },
+    "config": {}
+}
